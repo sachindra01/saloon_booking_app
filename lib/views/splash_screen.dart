@@ -8,8 +8,11 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: const [
-           Text('WelCome to Our Saloon ')
+        children: [
+          Image.asset(
+            'assets/img/hair.png'
+            ),
+          const Text('Book your\n favorite Stylist')
         ],
       ),
     );
